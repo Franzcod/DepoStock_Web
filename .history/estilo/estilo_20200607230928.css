@@ -1,0 +1,97 @@
+html{
+    background: rgb(11,196,242);
+    background: linear-gradient(249deg, rgba(11,196,242,0.981127485173757) 0%, rgba(248,163,5,0.8774860285911239) 78%);
+}
+
+.titulo{
+    margin: 2vw 4vw;
+    align-items: flex-start;
+    color: #fff;
+    font-size: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 5px 5px rgb(42, 38, 30);
+    
+}
+
+
+:root {
+--gutter: 20px;
+}
+
+.app {
+    padding: 10px;
+    display: grid;
+    grid-gap: var(--gutter) 0;
+    border: 2px solid black;
+    /* grid-template-columns: var(--gutter) 1fr var(--gutter);  */
+    align-content: start;
+    width: 80%;
+    height: 75%;
+    
+    background: rgb(235, 192, 75); 
+    /* overflow-y: scroll; */
+    margin: 2vw auto;
+    overflow-x: auto;
+    border-radius: 10px;
+}
+
+
+.hs {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    overflow-x: auto; 
+    /* scroll-snap-type: x proximity; */
+    padding-bottom: calc(.75 * var(--gutter));
+    
+    width: 2000px;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    background-image: url("https://www.dacocorpblog.com/wp-content/uploads/2018/07/A-Guide-for-Warehouse-Pallet-Racking-Options.jpeg");
+    /* background-position: initial;  */
+    background-repeat: repeat-x; /* Do not repeat the image */
+    background-size: contain;
+}
+
+h2{
+    margin-left: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.item {
+    /* scroll-snap-align: center; */
+    /* padding: 2px;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    background: rgba(11,156,242,0.5);
+    border: 2px solid rgb(247, 95, 39);
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+    margin: 1vw 5px;
+}
+
+
+.pos{
+    width: 100%;
+    height: 15%;
+    border-radius: 4px 4px 0 0 ;
+    margin: 0px auto;
+    align-items: center;
+    color: darkblue;
+    background-color: rgb(247, 95, 39);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+} 
+
+
+.listaProduc{
+    margin-top: 5px;
+    margin-left: 2px;
+    padding-left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}

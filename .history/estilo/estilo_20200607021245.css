@@ -1,0 +1,27 @@
+html{
+    background-color: rgba(255, 164, 0, 1);
+}
+
+#div2 {
+    border: 3px solid black;
+    width:  80%;
+    height: 40%;
+    margin: 2vw auto;
+    padding: 2vh 2vh;
+    background-color: rgba(105, 105, 105, 0.565);
+}
+
+#div2 { overflow-x: scroll;}
+
+
+.wrapper {
+    display: grid;
+    grid-gap: calc(var(--gutter) / 2);
+    grid-template-columns: 10px repeat(var(--total), calc(50% - var(--gutter) * 2)) 10px;
+    grid-template-rows: minmax(150px, 1fr);
+    
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+    padding-bottom: calc(.75 * var(--gutter));
+    margin-bottom: calc(-.25 * var(--gutter));
+}

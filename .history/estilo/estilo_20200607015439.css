@@ -1,0 +1,13 @@
+html{
+    background-color: aqua;
+}
+
+#div2 {
+    border: 1px solid black;
+    width:  80%;
+    height: 500px;
+    margin: 2vw auto;
+    padding: 2vh 2vh;
+}
+
+#div2 { overflow-x: scroll;}

@@ -1,0 +1,7 @@
+#div2 {
+    border: 1px solid black;
+    width:  80%;
+    height: 500px;
+}
+
+#div2 { overflow-y: scroll; margin-bottom: 12px;}

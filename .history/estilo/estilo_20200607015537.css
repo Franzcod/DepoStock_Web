@@ -1,0 +1,14 @@
+html{
+    background-color: darkorange;
+}
+
+#div2 {
+    border: 1px solid black;
+    width:  80%;
+    height: 500px;
+    margin: 2vw auto;
+    padding: 2vh 2vh;
+    background-color: dimgray;
+}
+
+#div2 { overflow-x: scroll;}
